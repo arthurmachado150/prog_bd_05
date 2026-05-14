@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./prog_cad.js"defer></script>
+    <title>Cadastro de Veículo</title>
+</head>
+<body>
+    <h1>Sistema de Cadastro de Veículos</h1>
+    <br>
+    <form>
+        <label for="nome">Nome do carro:</label><br>
+        <input type="text" id="nome"><br><br>
+
+        <label for="marca">Marca do carro:</label><br>
+        <input type="text" id="marca"><br><br>
+
+        <label for="categoria">Marca do carro:</label><br>
+
+        <select id="categoria">
+            <option value="popular">Popular</option>
+            <option value="sedan">Sedan</option>
+            <option value="luxo">Luxo</option>
+        </select><br><br>
+
+        <label for="ano">Ano do carro:</label><br>
+        <input type="text" id="ano"><br><br>
+
+        <label for="precoFab">Preço de Fábrica do carro:</label><br>
+        <input type="text" id="precoFab"><br><br>
+        
+        <button id="btnCadastrar">Cadastrar</button><br><br>
+    </form>
+    <div id="resposta"></div>
+</body>
+</html>

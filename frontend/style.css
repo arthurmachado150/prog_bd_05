@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(151, 121, 85);
+    font-size: 1.25rem;
+    font-family: 'Tahoma';
+    color: white;
+    text-align: center;
+}
+
+nav{
+    padding: 16px 16px;
+}
+
+nav a{
+    padding: 16px 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+    border-radius: 8px;
+    background-color: rgb(168, 114, 47);
+}
+
+h1{
+    font-size: 1.4rem;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+input, select, button{
+    background-color: black;
+    color: green;
+    font-size: 1.25rem;
+    text-align: center;
+    border-radius: 8px 12px;
+    font-weight: bold;
+    padding: 4px 8px;
+}
+
+label{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
